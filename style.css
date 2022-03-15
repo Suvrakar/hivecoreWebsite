@@ -227,7 +227,7 @@ p {
 .tagline {
   font-size: 50px;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 2vh;
   position: absolute;
   /* display: inline; */
   /* float: left; */
@@ -289,11 +289,13 @@ p {
   transform: rotate(90deg);
   position: absolute;
   display: inline-block;
+  display: flex;
+ margin-left: 140vh;
 }
 
 #myRange{
   height: 1.2px;
-  width: 200px;
+  width: 350px;
 }
 
 
