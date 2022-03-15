@@ -9,7 +9,7 @@ $('.slider-for').slick({
 $('.slider-nav').slick({
   // autoplay: true,
   centerMode: true,
-  centerPadding: "45%",
+  centerPadding: "40%",
   slidesToShow: 1,
   slidesToScroll: 1,
   vertical: true,
