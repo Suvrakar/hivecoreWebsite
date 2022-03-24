@@ -53,8 +53,8 @@ $('.slider-nav').slick({
 
 
 $(document).ready(function() {
-  var slider = $('.slider');
-  
+  //var slider = $('.slider');
+  var slider=document.getElementById("myRange")
     $('input[type="range"]').on('input', function(){
       var position = document.getElementById("myRange").value;
      slider.slick('slickGoTo', position)
